@@ -7,17 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>News</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap'); </style>
+        section.new::before {content: "NEW!"; color: red; font-size: x-large; 
+    padding-left: 68%; font-family: 'Goldman', cursive;
+    
+    }
+        @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+</style></style>
 </head>
 <body>
     <header>
         <h1>Top News</h1>
     </header>
-    <section class="news">
-        <article>
-            <a href="#"><h2>9 Ноября каждого года - отличный день!</h2>
+    <section class="new">
+        
+        <article class="news0">
+            <a href="#" id="new"><h2>9 Ноября каждого года - отличный день!</h2>
             </a>
-            <div class="articlemeta"> 
+            <div class="articlemeta" id="new"> 
                 Опубликовал  <a href="#">Арсений Волков</a>
                 11.11.2020.
             </div>
@@ -30,8 +37,8 @@
         
     </section>
 
-    <section class="news">
-        <article>
+    <section class="new">
+        <article class="news1" >
             <a href="#"><h2>4 Ноября</h2>
             </a>
             <div class="articlemeta"> 
@@ -45,8 +52,8 @@
         </article>
         
     </section>
-    <section class="news">
-        <article>
+    <section >
+        <article class="news0">
             <a href="#"><h2>TikTok против Трампа: соцсеть пытается оспорить предписание суда</h2>
             </a>
             <div class="articlemeta"> 
@@ -59,8 +66,8 @@
         </article>
         
     </section>
-    <section class="news">
-        <article>
+    <section>
+        <article class="news1">
             <a href="#"><h2>Обучали инструкторы из США. РФ о деталях подготовки боевиков в Сирии</h2>
             </a>
             <div class="articlemeta"> 
@@ -74,8 +81,8 @@
         </article>
         
     </section>
-    <section class="news">
-        <article>
+    <section >
+        <article class="news0">
             <a href="#"><h2>Ученые обнаружили антитела к COVID у пациентов с другими диагнозами.</h2>
             </a>
             <div class="articlemeta"> 
@@ -93,7 +100,7 @@
     <footer>
         <div class="links">
             <a href="#">Contacts</a>
-            <a href="#">About</a>
+            <a href="about.html">About</a>
             <a href="#">Work with us</a>
             <a href="#">Place an ad</a>            
         </div>
